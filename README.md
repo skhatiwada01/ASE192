@@ -24,7 +24,8 @@ This file contains the list of all files in the system. For each file, the relat
 This file contains the list of all **relevant** file(s) for the issue. For each file, the relative path of the file and the index is provided. The file is in xml format.
 
 ##### Source.txt
-This file contains the source code for the entire system. The source code belongs to the version of the project where the fix was applied. Each source code file is represented as a single line in Source.txt. The text are stemmed and camel-case splitted. The file is in following format: FileIndex<sub>1</sub>##word<sub>11</sub>,word<sub>12</sub>,word<sub>13</sub>,...,word<sub>1n</sub> FileIndex<sub>2</sub>##word<sub>21</sub>,word<sub>22</sub>,word<sub>23</sub>,...,word<sub>2m</sub>
+This file contains the source code for the entire system. The source code belongs to the version of the project where the fix was applied. Each source code file is represented as a single line in Source.txt. The text are stemmed and camel-case splitted. The file is in following format:
+FileIndex<sub>1</sub>##word<sub>11</sub>,word<sub>12</sub>,word<sub>13</sub>,...,word<sub>1n</sub> FileIndex<sub>2</sub>##word<sub>21</sub>,word<sub>22</sub>,word<sub>23</sub>,...,word<sub>2m</sub>
 
 #### AllCommits.txt
 This file contains all commits made in the project. Each commit info contains the commit's Sha, data and time the commit was made, and the UserId of the committer. The file is in xml format.
